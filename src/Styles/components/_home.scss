@@ -1,0 +1,94 @@
+body{
+    background-image: url('../../assets/img/th.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height:100vh;
+    width:95vw;
+
+    section{
+        background-color: rgba(0,0,0,0.7);
+        height: 80%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .mdi{
+        font-size: 8rem;
+        color: orange;
+        text-align: center;
+    }
+
+    #home{
+        height: 700px;
+        width: 500px;
+    }
+
+    
+    .play-button-container{
+        width: 100%;
+    }
+    a.play-button{
+        background-color: green;
+        color: white;
+        display: block;
+        border-radius: 30px;
+        list-style-type: none;
+        cursor: pointer;
+        padding: 20px;
+        margin-top: 48px;
+        text-align: center;
+        transition: 0.3s linear all;
+    }
+    a.play-button:hover{
+        background-color: darkgreen;
+        box-shadow:0px 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    }
+    ul{
+        list-style-type: none;
+    }
+     .auth-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+     }
+     #login{
+        background-color: red;
+     }
+     #login:hover{
+        background-color: darkred;
+        box-shadow:0px 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     }
+     #signup{
+        background-color: #1da1f2;
+     }
+     #signup:hover{
+        background-color:#045080;
+        box-shadow:0px 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     }
+     a{
+        text-decoration: none;
+     }
+     .auth-container .auth-buttons{
+        color: white;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: 20px 0px;
+        text-align: center;
+        width: 45%;
+        margin-top: 48px;
+        transition: 0.3s linear all;
+     }
+
+     @media(max-width:768px){
+        #home section{
+            padding: 0  16px;
+            width: 100%;
+            height: 100%;
+           
+        }
+     }
+}
